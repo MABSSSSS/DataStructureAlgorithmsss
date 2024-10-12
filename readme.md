@@ -56,3 +56,5 @@ for(i=1; i<n;i++){
     A[prev+1] =curr;
 
 }
+
+
