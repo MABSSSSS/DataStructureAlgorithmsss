@@ -58,3 +58,64 @@ for(i=1; i<n;i++){
 }
 
 
+**Merge 2 sorted arrays:**
+
+idx = m+n-1 
+
+i=n-1; j=n-1
+
+while(i>=0 && j>=0){
+    if(A[i] >=A[j])
+    A[idx] = A[i] --->idx--,i--
+    else
+    A[idx] =B[j] -->idx--, j--;
+}
+
+**Next permutation:**
+
+A=[1,2,3]  --> return lexicographically next (for number and strings)
+
+--->Brute force 
+
+1. find all permutations.(Recursion)
+2. find lexico next permutations.
+
+inplace O(1) TC
+O(n) SC.
+Optimal approach:--intuition:
+
+Pivot element: -->  A[i] < A[i+1]
+1. find the pivot element.
+2. find the right most element greator than the pivot element.
+ 
+   swap(RME, pivot element)
+3. reverse elemnts from (pivot+1) to n-1 
+
+dec--->increasing.
+
+
+--Next permutation:**
+1. piv = -1
+  for(i=n-2; i> =0; i--)
+  if (A[i] < A[i+1]){
+    piv =i
+    break;
+  }
+
+  if(piv == -1)
+  {reverse Array()
+  return 
+  }
+  2. for (i=n-1; i>pivot; i--){
+    if(A[i] >A[pivot])
+    swap(A[i],A[pivot])
+    break;
+  }
+  3. i =pivot+1
+  j= n-1
+  while(I<=j){
+    swap(A[i], A[j])
+    i++
+    j--
+  }
+  
