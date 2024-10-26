@@ -370,6 +370,14 @@ __sliding window based approach__
 
 
 
+**Reverse words in strings:**
+
+reverse(word.begin(), word.end());
+if(word>length()>0)
+
+ans +=" " + word;
+
+
 
 
 
