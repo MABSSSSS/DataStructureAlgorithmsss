@@ -316,12 +316,42 @@ while(st>e){
   swap(dtr[start], st{e})
   st++
   end--
-}o(n)
+}
+o(n)
 
 
+**Valid Palindrome:**
 
+__2 pointer approach__
 
+--->tolower(ch):
+-->isalphanumeric()
 
+st =0, end=n01
+while(st < end){
+  isAlpha(!str[st])---> st++; continue;
+  isAlpha(!sr[end])--->end--;continue;
+
+  if(tolower(str[st] !== tolower[str[end]]))
+
+  return false;
+
+  st++; end--;
+
+}
+return true;
+
+**Remove All Occurances:*
+
+1. str.find(substr)<str.length()>
+
+--->position startting returned 
+
+2. string.erase(start,end)
+
+i. find paert in string.
+ii. Delete part in string.
+ --->s.erase(st,end)
 
 
 
