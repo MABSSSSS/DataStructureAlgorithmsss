@@ -296,8 +296,27 @@ binary_search(v.begin(), v.end(), target)
 __builtin_popcount()
 
 
+**Strings:**
 
 
+
+
+character arrays also called c strings.
+char st[]=9;
+
+Characters Arrays:
+cin.getline(str(char arr),len(no of char),delim);delim = delimeter
+
+Question. Reverse a string:
+1. char arr[]
+2. string
+
+end =n-1,st=0
+while(st>e){
+  swap(dtr[start], st{e})
+  st++
+  end--
+}o(n)
 
 
 
