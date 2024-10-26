@@ -353,6 +353,20 @@ i. find paert in string.
 ii. Delete part in string.
  --->s.erase(st,end)
 
+**Permutation in string:**
+number of chracters and frequency of characters.
+
+1. store frequency of characters in s1.
+
+
+int freq[26] = {0}
+freq[s1[i] - 'a']++
+
+2. search s1 permutation in s2.
+    window based 
+s1.length() size windows(freq windows)
+
+__sliding window based approach__
 
 
 
