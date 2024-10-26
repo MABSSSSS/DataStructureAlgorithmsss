@@ -4,12 +4,13 @@
 using namespace std;
 int main()
 {
-
+//find if a string is palindrome or not?
     // Reverse a string:
     string ap="MABS";
-    reverse(ap.begiin(), str.end());
+    reverse(ap.begin(), str.end());
     cout<<str <<endl;
     return 0;
+
 }
 // string str ="apan ";
 // for (int i=0; i<str.length(); i++)
