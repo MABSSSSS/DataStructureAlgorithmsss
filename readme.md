@@ -378,9 +378,19 @@ if(word>length()>0)
 ans +=" " + word;
 
 
+**MATHS FOR DSA**
+
+--Sieve of eratosthenes approach
 
 
+--Digits in a Number:
 
+--GCD(Greatest common divisor)
+
+
+**Reverse a number:**
+
+revnum =(revNum*10)+digit
 
 
 
